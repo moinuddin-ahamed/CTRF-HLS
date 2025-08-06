@@ -1,0 +1,60 @@
+Backend: Vivado
+ClockPeriod: 10
+ClockUncertainty: 12.5%
+HLSConfig:
+  LayerName:
+    hidden1:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 4
+      Trace: false
+    hidden1_relu:
+      Precision:
+        result: auto
+      Trace: false
+    hidden2:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 4
+      Trace: false
+    hidden2_relu:
+      Precision:
+        result: auto
+      Trace: false
+    hidden3:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 4
+      Trace: false
+    hidden3_relu:
+      Precision:
+        result: auto
+      Trace: false
+    input_features:
+      Precision:
+        result: auto
+      Trace: false
+    output:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 4
+      Trace: false
+    output_softmax:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 4
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'hls_simple_bds/keras_model.keras'
+OutputDir: hls_simple_bds
+OutputPredictions: null
+Part: xcu250-figd2104-2L-e
+ProjectName: myproject
+Stamp: c0e483a3
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

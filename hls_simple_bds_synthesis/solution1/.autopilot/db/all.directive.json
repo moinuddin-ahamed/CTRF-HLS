@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "myproject",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "myproject"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/moinu/Documents/HLS/CTRF-ICPR24/CTRF/synthesize_bds.tcl",
+    "sourceLine": 32,
+    "success": true
+  }
+]

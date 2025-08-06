@@ -1,0 +1,399 @@
+
+
+================================================================
+== Vitis HLS Report for 'myproject'
+================================================================
+* Date:           Wed Aug  6 12:26:16 2025
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        hls_simple_bds_synthesis
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.281 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       17|       17|  0.170 us|  0.170 us|    4|    4|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 4, depth = 18
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 18
+* Pipeline : 1
+  Pipeline-0 : II = 4, D = 18, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.48>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%input_features_read = read i256 @_ssdm_op_Read.ap_vld.i256P0A, i256 %input_features"   --->   Operation 19 'read' 'input_features_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [4/4] (3.48ns)   --->   "%call_ret1 = call i512 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>, i256 %input_features_read" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 20 'call' 'call_ret1' <Predicate = true> <Delay = 3.48> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 5.51>
+ST_2 : Operation 21 [3/4] (5.51ns)   --->   "%call_ret1 = call i512 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>, i256 %input_features_read" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 21 'call' 'call_ret1' <Predicate = true> <Delay = 5.51> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 5.51>
+ST_3 : Operation 22 [2/4] (5.51ns)   --->   "%call_ret1 = call i512 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>, i256 %input_features_read" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 22 'call' 'call_ret1' <Predicate = true> <Delay = 5.51> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 5.51>
+ST_4 : Operation 23 [1/4] (5.51ns)   --->   "%call_ret1 = call i512 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>, i256 %input_features_read" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 23 'call' 'call_ret1' <Predicate = true> <Delay = 5.51> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 24 [1/1] (0.00ns)   --->   "%layer2_out = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 24 'extractvalue' 'layer2_out' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 25 [1/1] (0.00ns)   --->   "%layer2_out_1 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 25 'extractvalue' 'layer2_out_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 26 [1/1] (0.00ns)   --->   "%layer2_out_2 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 26 'extractvalue' 'layer2_out_2' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 27 [1/1] (0.00ns)   --->   "%layer2_out_3 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 27 'extractvalue' 'layer2_out_3' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 28 [1/1] (0.00ns)   --->   "%layer2_out_4 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 28 'extractvalue' 'layer2_out_4' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 29 [1/1] (0.00ns)   --->   "%layer2_out_5 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 29 'extractvalue' 'layer2_out_5' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 30 [1/1] (0.00ns)   --->   "%layer2_out_6 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 30 'extractvalue' 'layer2_out_6' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 31 [1/1] (0.00ns)   --->   "%layer2_out_7 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 31 'extractvalue' 'layer2_out_7' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 32 [1/1] (0.00ns)   --->   "%layer2_out_8 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 32 'extractvalue' 'layer2_out_8' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/1] (0.00ns)   --->   "%layer2_out_9 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 33 'extractvalue' 'layer2_out_9' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%layer2_out_10 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 34 'extractvalue' 'layer2_out_10' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 35 [1/1] (0.00ns)   --->   "%layer2_out_11 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 35 'extractvalue' 'layer2_out_11' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%layer2_out_12 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 36 'extractvalue' 'layer2_out_12' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 37 [1/1] (0.00ns)   --->   "%layer2_out_13 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 37 'extractvalue' 'layer2_out_13' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 38 [1/1] (0.00ns)   --->   "%layer2_out_14 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 38 'extractvalue' 'layer2_out_14' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%layer2_out_15 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 39 'extractvalue' 'layer2_out_15' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%layer2_out_16 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 40 'extractvalue' 'layer2_out_16' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%layer2_out_17 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 41 'extractvalue' 'layer2_out_17' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 42 [1/1] (0.00ns)   --->   "%layer2_out_18 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 42 'extractvalue' 'layer2_out_18' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%layer2_out_19 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 43 'extractvalue' 'layer2_out_19' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 44 [1/1] (0.00ns)   --->   "%layer2_out_20 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 44 'extractvalue' 'layer2_out_20' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 45 [1/1] (0.00ns)   --->   "%layer2_out_21 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 45 'extractvalue' 'layer2_out_21' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 46 [1/1] (0.00ns)   --->   "%layer2_out_22 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 46 'extractvalue' 'layer2_out_22' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%layer2_out_23 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 47 'extractvalue' 'layer2_out_23' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 48 [1/1] (0.00ns)   --->   "%layer2_out_24 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 48 'extractvalue' 'layer2_out_24' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 49 [1/1] (0.00ns)   --->   "%layer2_out_25 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 49 'extractvalue' 'layer2_out_25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 50 [1/1] (0.00ns)   --->   "%layer2_out_26 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 50 'extractvalue' 'layer2_out_26' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 51 [1/1] (0.00ns)   --->   "%layer2_out_27 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 51 'extractvalue' 'layer2_out_27' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 52 [1/1] (0.00ns)   --->   "%layer2_out_28 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 52 'extractvalue' 'layer2_out_28' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 53 [1/1] (0.00ns)   --->   "%layer2_out_29 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 53 'extractvalue' 'layer2_out_29' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 54 [1/1] (0.00ns)   --->   "%layer2_out_30 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 54 'extractvalue' 'layer2_out_30' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 55 [1/1] (0.00ns)   --->   "%layer2_out_31 = extractvalue i512 %call_ret1" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40]   --->   Operation 55 'extractvalue' 'layer2_out_31' <Predicate = true> <Delay = 0.00>
+
+State 5 <SV = 4> <Delay = 6.50>
+ST_5 : Operation 56 [1/1] (1.07ns)   --->   "%call_ret2 = call i512 @relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config3>, i16 %layer2_out, i16 %layer2_out_1, i16 %layer2_out_2, i16 %layer2_out_3, i16 %layer2_out_4, i16 %layer2_out_5, i16 %layer2_out_6, i16 %layer2_out_7, i16 %layer2_out_8, i16 %layer2_out_9, i16 %layer2_out_10, i16 %layer2_out_11, i16 %layer2_out_12, i16 %layer2_out_13, i16 %layer2_out_14, i16 %layer2_out_15, i16 %layer2_out_16, i16 %layer2_out_17, i16 %layer2_out_18, i16 %layer2_out_19, i16 %layer2_out_20, i16 %layer2_out_21, i16 %layer2_out_22, i16 %layer2_out_23, i16 %layer2_out_24, i16 %layer2_out_25, i16 %layer2_out_26, i16 %layer2_out_27, i16 %layer2_out_28, i16 %layer2_out_29, i16 %layer2_out_30, i16 %layer2_out_31" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 56 'call' 'call_ret2' <Predicate = true> <Delay = 1.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 57 [1/1] (0.00ns)   --->   "%layer3_out = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 57 'extractvalue' 'layer3_out' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 58 [1/1] (0.00ns)   --->   "%layer3_out_1 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 58 'extractvalue' 'layer3_out_1' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 59 [1/1] (0.00ns)   --->   "%layer3_out_2 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 59 'extractvalue' 'layer3_out_2' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%layer3_out_3 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 60 'extractvalue' 'layer3_out_3' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 61 [1/1] (0.00ns)   --->   "%layer3_out_4 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 61 'extractvalue' 'layer3_out_4' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 62 [1/1] (0.00ns)   --->   "%layer3_out_5 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 62 'extractvalue' 'layer3_out_5' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 63 [1/1] (0.00ns)   --->   "%layer3_out_6 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 63 'extractvalue' 'layer3_out_6' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 64 [1/1] (0.00ns)   --->   "%layer3_out_7 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 64 'extractvalue' 'layer3_out_7' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 65 [1/1] (0.00ns)   --->   "%layer3_out_8 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 65 'extractvalue' 'layer3_out_8' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%layer3_out_9 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 66 'extractvalue' 'layer3_out_9' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%layer3_out_10 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 67 'extractvalue' 'layer3_out_10' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 68 [1/1] (0.00ns)   --->   "%layer3_out_11 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 68 'extractvalue' 'layer3_out_11' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 69 [1/1] (0.00ns)   --->   "%layer3_out_12 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 69 'extractvalue' 'layer3_out_12' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 70 [1/1] (0.00ns)   --->   "%layer3_out_13 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 70 'extractvalue' 'layer3_out_13' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 71 [1/1] (0.00ns)   --->   "%layer3_out_14 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 71 'extractvalue' 'layer3_out_14' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 72 [1/1] (0.00ns)   --->   "%layer3_out_15 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 72 'extractvalue' 'layer3_out_15' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 73 [1/1] (0.00ns)   --->   "%layer3_out_16 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 73 'extractvalue' 'layer3_out_16' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 74 [1/1] (0.00ns)   --->   "%layer3_out_17 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 74 'extractvalue' 'layer3_out_17' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 75 [1/1] (0.00ns)   --->   "%layer3_out_18 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 75 'extractvalue' 'layer3_out_18' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 76 [1/1] (0.00ns)   --->   "%layer3_out_19 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 76 'extractvalue' 'layer3_out_19' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 77 [1/1] (0.00ns)   --->   "%layer3_out_20 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 77 'extractvalue' 'layer3_out_20' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 78 [1/1] (0.00ns)   --->   "%layer3_out_21 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 78 'extractvalue' 'layer3_out_21' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 79 [1/1] (0.00ns)   --->   "%layer3_out_22 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 79 'extractvalue' 'layer3_out_22' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 80 [1/1] (0.00ns)   --->   "%layer3_out_23 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 80 'extractvalue' 'layer3_out_23' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 81 [1/1] (0.00ns)   --->   "%layer3_out_24 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 81 'extractvalue' 'layer3_out_24' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 82 [1/1] (0.00ns)   --->   "%layer3_out_25 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 82 'extractvalue' 'layer3_out_25' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 83 [1/1] (0.00ns)   --->   "%layer3_out_26 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 83 'extractvalue' 'layer3_out_26' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 84 [1/1] (0.00ns)   --->   "%layer3_out_27 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 84 'extractvalue' 'layer3_out_27' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 85 [1/1] (0.00ns)   --->   "%layer3_out_28 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 85 'extractvalue' 'layer3_out_28' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 86 [1/1] (0.00ns)   --->   "%layer3_out_29 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 86 'extractvalue' 'layer3_out_29' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 87 [1/1] (0.00ns)   --->   "%layer3_out_30 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 87 'extractvalue' 'layer3_out_30' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 88 [1/1] (0.00ns)   --->   "%layer3_out_31 = extractvalue i512 %call_ret2" [hls_simple_bds/firmware/myproject.cpp:44]   --->   Operation 88 'extractvalue' 'layer3_out_31' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 89 [4/4] (5.42ns)   --->   "%call_ret3 = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>, i16 %layer3_out, i16 %layer3_out_1, i16 %layer3_out_2, i16 %layer3_out_3, i16 %layer3_out_4, i16 %layer3_out_5, i16 %layer3_out_6, i16 %layer3_out_7, i16 %layer3_out_8, i16 %layer3_out_9, i16 %layer3_out_10, i16 %layer3_out_11, i16 %layer3_out_12, i16 %layer3_out_13, i16 %layer3_out_14, i16 %layer3_out_15, i16 %layer3_out_16, i16 %layer3_out_17, i16 %layer3_out_18, i16 %layer3_out_19, i16 %layer3_out_20, i16 %layer3_out_21, i16 %layer3_out_22, i16 %layer3_out_23, i16 %layer3_out_24, i16 %layer3_out_25, i16 %layer3_out_26, i16 %layer3_out_27, i16 %layer3_out_28, i16 %layer3_out_29, i16 %layer3_out_30, i16 %layer3_out_31" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 89 'call' 'call_ret3' <Predicate = true> <Delay = 5.42> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 5.42>
+ST_6 : Operation 90 [3/4] (5.42ns)   --->   "%call_ret3 = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>, i16 %layer3_out, i16 %layer3_out_1, i16 %layer3_out_2, i16 %layer3_out_3, i16 %layer3_out_4, i16 %layer3_out_5, i16 %layer3_out_6, i16 %layer3_out_7, i16 %layer3_out_8, i16 %layer3_out_9, i16 %layer3_out_10, i16 %layer3_out_11, i16 %layer3_out_12, i16 %layer3_out_13, i16 %layer3_out_14, i16 %layer3_out_15, i16 %layer3_out_16, i16 %layer3_out_17, i16 %layer3_out_18, i16 %layer3_out_19, i16 %layer3_out_20, i16 %layer3_out_21, i16 %layer3_out_22, i16 %layer3_out_23, i16 %layer3_out_24, i16 %layer3_out_25, i16 %layer3_out_26, i16 %layer3_out_27, i16 %layer3_out_28, i16 %layer3_out_29, i16 %layer3_out_30, i16 %layer3_out_31" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 90 'call' 'call_ret3' <Predicate = true> <Delay = 5.42> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 5.42>
+ST_7 : Operation 91 [2/4] (5.42ns)   --->   "%call_ret3 = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>, i16 %layer3_out, i16 %layer3_out_1, i16 %layer3_out_2, i16 %layer3_out_3, i16 %layer3_out_4, i16 %layer3_out_5, i16 %layer3_out_6, i16 %layer3_out_7, i16 %layer3_out_8, i16 %layer3_out_9, i16 %layer3_out_10, i16 %layer3_out_11, i16 %layer3_out_12, i16 %layer3_out_13, i16 %layer3_out_14, i16 %layer3_out_15, i16 %layer3_out_16, i16 %layer3_out_17, i16 %layer3_out_18, i16 %layer3_out_19, i16 %layer3_out_20, i16 %layer3_out_21, i16 %layer3_out_22, i16 %layer3_out_23, i16 %layer3_out_24, i16 %layer3_out_25, i16 %layer3_out_26, i16 %layer3_out_27, i16 %layer3_out_28, i16 %layer3_out_29, i16 %layer3_out_30, i16 %layer3_out_31" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 91 'call' 'call_ret3' <Predicate = true> <Delay = 5.42> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 5.42>
+ST_8 : Operation 92 [1/4] (5.42ns)   --->   "%call_ret3 = call i256 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>, i16 %layer3_out, i16 %layer3_out_1, i16 %layer3_out_2, i16 %layer3_out_3, i16 %layer3_out_4, i16 %layer3_out_5, i16 %layer3_out_6, i16 %layer3_out_7, i16 %layer3_out_8, i16 %layer3_out_9, i16 %layer3_out_10, i16 %layer3_out_11, i16 %layer3_out_12, i16 %layer3_out_13, i16 %layer3_out_14, i16 %layer3_out_15, i16 %layer3_out_16, i16 %layer3_out_17, i16 %layer3_out_18, i16 %layer3_out_19, i16 %layer3_out_20, i16 %layer3_out_21, i16 %layer3_out_22, i16 %layer3_out_23, i16 %layer3_out_24, i16 %layer3_out_25, i16 %layer3_out_26, i16 %layer3_out_27, i16 %layer3_out_28, i16 %layer3_out_29, i16 %layer3_out_30, i16 %layer3_out_31" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 92 'call' 'call_ret3' <Predicate = true> <Delay = 5.42> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 93 [1/1] (0.00ns)   --->   "%layer4_out = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 93 'extractvalue' 'layer4_out' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 94 [1/1] (0.00ns)   --->   "%layer4_out_1 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 94 'extractvalue' 'layer4_out_1' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 95 [1/1] (0.00ns)   --->   "%layer4_out_2 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 95 'extractvalue' 'layer4_out_2' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 96 [1/1] (0.00ns)   --->   "%layer4_out_3 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 96 'extractvalue' 'layer4_out_3' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 97 [1/1] (0.00ns)   --->   "%layer4_out_4 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 97 'extractvalue' 'layer4_out_4' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 98 [1/1] (0.00ns)   --->   "%layer4_out_5 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 98 'extractvalue' 'layer4_out_5' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 99 [1/1] (0.00ns)   --->   "%layer4_out_6 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 99 'extractvalue' 'layer4_out_6' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 100 [1/1] (0.00ns)   --->   "%layer4_out_7 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 100 'extractvalue' 'layer4_out_7' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 101 [1/1] (0.00ns)   --->   "%layer4_out_8 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 101 'extractvalue' 'layer4_out_8' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 102 [1/1] (0.00ns)   --->   "%layer4_out_9 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 102 'extractvalue' 'layer4_out_9' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 103 [1/1] (0.00ns)   --->   "%layer4_out_10 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 103 'extractvalue' 'layer4_out_10' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 104 [1/1] (0.00ns)   --->   "%layer4_out_11 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 104 'extractvalue' 'layer4_out_11' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 105 [1/1] (0.00ns)   --->   "%layer4_out_12 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 105 'extractvalue' 'layer4_out_12' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 106 [1/1] (0.00ns)   --->   "%layer4_out_13 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 106 'extractvalue' 'layer4_out_13' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 107 [1/1] (0.00ns)   --->   "%layer4_out_14 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 107 'extractvalue' 'layer4_out_14' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 108 [1/1] (0.00ns)   --->   "%layer4_out_15 = extractvalue i256 %call_ret3" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48]   --->   Operation 108 'extractvalue' 'layer4_out_15' <Predicate = true> <Delay = 0.00>
+
+State 9 <SV = 8> <Delay = 5.73>
+ST_9 : Operation 109 [1/1] (1.07ns)   --->   "%call_ret4 = call i256 @relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config5>, i16 %layer4_out, i16 %layer4_out_1, i16 %layer4_out_2, i16 %layer4_out_3, i16 %layer4_out_4, i16 %layer4_out_5, i16 %layer4_out_6, i16 %layer4_out_7, i16 %layer4_out_8, i16 %layer4_out_9, i16 %layer4_out_10, i16 %layer4_out_11, i16 %layer4_out_12, i16 %layer4_out_13, i16 %layer4_out_14, i16 %layer4_out_15" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 109 'call' 'call_ret4' <Predicate = true> <Delay = 1.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 110 [1/1] (0.00ns)   --->   "%layer5_out = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 110 'extractvalue' 'layer5_out' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 111 [1/1] (0.00ns)   --->   "%layer5_out_1 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 111 'extractvalue' 'layer5_out_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 112 [1/1] (0.00ns)   --->   "%layer5_out_2 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 112 'extractvalue' 'layer5_out_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 113 [1/1] (0.00ns)   --->   "%layer5_out_3 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 113 'extractvalue' 'layer5_out_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 114 [1/1] (0.00ns)   --->   "%layer5_out_4 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 114 'extractvalue' 'layer5_out_4' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 115 [1/1] (0.00ns)   --->   "%layer5_out_5 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 115 'extractvalue' 'layer5_out_5' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 116 [1/1] (0.00ns)   --->   "%layer5_out_6 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 116 'extractvalue' 'layer5_out_6' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 117 [1/1] (0.00ns)   --->   "%layer5_out_7 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 117 'extractvalue' 'layer5_out_7' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 118 [1/1] (0.00ns)   --->   "%layer5_out_8 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 118 'extractvalue' 'layer5_out_8' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 119 [1/1] (0.00ns)   --->   "%layer5_out_9 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 119 'extractvalue' 'layer5_out_9' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 120 [1/1] (0.00ns)   --->   "%layer5_out_10 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 120 'extractvalue' 'layer5_out_10' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 121 [1/1] (0.00ns)   --->   "%layer5_out_11 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 121 'extractvalue' 'layer5_out_11' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 122 [1/1] (0.00ns)   --->   "%layer5_out_12 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 122 'extractvalue' 'layer5_out_12' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 123 [1/1] (0.00ns)   --->   "%layer5_out_13 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 123 'extractvalue' 'layer5_out_13' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 124 [1/1] (0.00ns)   --->   "%layer5_out_14 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 124 'extractvalue' 'layer5_out_14' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 125 [1/1] (0.00ns)   --->   "%layer5_out_15 = extractvalue i256 %call_ret4" [hls_simple_bds/firmware/myproject.cpp:52]   --->   Operation 125 'extractvalue' 'layer5_out_15' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 126 [4/4] (4.66ns)   --->   "%call_ret5 = call i128 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>, i16 %layer5_out, i16 %layer5_out_1, i16 %layer5_out_2, i16 %layer5_out_3, i16 %layer5_out_4, i16 %layer5_out_5, i16 %layer5_out_6, i16 %layer5_out_7, i16 %layer5_out_8, i16 %layer5_out_9, i16 %layer5_out_10, i16 %layer5_out_11, i16 %layer5_out_12, i16 %layer5_out_13, i16 %layer5_out_14, i16 %layer5_out_15" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 126 'call' 'call_ret5' <Predicate = true> <Delay = 4.66> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 4.75>
+ST_10 : Operation 127 [3/4] (4.75ns)   --->   "%call_ret5 = call i128 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>, i16 %layer5_out, i16 %layer5_out_1, i16 %layer5_out_2, i16 %layer5_out_3, i16 %layer5_out_4, i16 %layer5_out_5, i16 %layer5_out_6, i16 %layer5_out_7, i16 %layer5_out_8, i16 %layer5_out_9, i16 %layer5_out_10, i16 %layer5_out_11, i16 %layer5_out_12, i16 %layer5_out_13, i16 %layer5_out_14, i16 %layer5_out_15" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 127 'call' 'call_ret5' <Predicate = true> <Delay = 4.75> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 4.75>
+ST_11 : Operation 128 [2/4] (4.75ns)   --->   "%call_ret5 = call i128 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>, i16 %layer5_out, i16 %layer5_out_1, i16 %layer5_out_2, i16 %layer5_out_3, i16 %layer5_out_4, i16 %layer5_out_5, i16 %layer5_out_6, i16 %layer5_out_7, i16 %layer5_out_8, i16 %layer5_out_9, i16 %layer5_out_10, i16 %layer5_out_11, i16 %layer5_out_12, i16 %layer5_out_13, i16 %layer5_out_14, i16 %layer5_out_15" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 128 'call' 'call_ret5' <Predicate = true> <Delay = 4.75> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 4.75>
+ST_12 : Operation 129 [1/4] (4.75ns)   --->   "%call_ret5 = call i128 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>, i16 %layer5_out, i16 %layer5_out_1, i16 %layer5_out_2, i16 %layer5_out_3, i16 %layer5_out_4, i16 %layer5_out_5, i16 %layer5_out_6, i16 %layer5_out_7, i16 %layer5_out_8, i16 %layer5_out_9, i16 %layer5_out_10, i16 %layer5_out_11, i16 %layer5_out_12, i16 %layer5_out_13, i16 %layer5_out_14, i16 %layer5_out_15" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 129 'call' 'call_ret5' <Predicate = true> <Delay = 4.75> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_12 : Operation 130 [1/1] (0.00ns)   --->   "%layer6_out = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 130 'extractvalue' 'layer6_out' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 131 [1/1] (0.00ns)   --->   "%layer6_out_1 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 131 'extractvalue' 'layer6_out_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 132 [1/1] (0.00ns)   --->   "%layer6_out_2 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 132 'extractvalue' 'layer6_out_2' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 133 [1/1] (0.00ns)   --->   "%layer6_out_3 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 133 'extractvalue' 'layer6_out_3' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 134 [1/1] (0.00ns)   --->   "%layer6_out_4 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 134 'extractvalue' 'layer6_out_4' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 135 [1/1] (0.00ns)   --->   "%layer6_out_5 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 135 'extractvalue' 'layer6_out_5' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 136 [1/1] (0.00ns)   --->   "%layer6_out_6 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 136 'extractvalue' 'layer6_out_6' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 137 [1/1] (0.00ns)   --->   "%layer6_out_7 = extractvalue i128 %call_ret5" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56]   --->   Operation 137 'extractvalue' 'layer6_out_7' <Predicate = true> <Delay = 0.00>
+
+State 13 <SV = 12> <Delay = 5.04>
+ST_13 : Operation 138 [1/1] (1.07ns)   --->   "%call_ret6 = call i128 @relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>, i16 %layer6_out, i16 %layer6_out_1, i16 %layer6_out_2, i16 %layer6_out_3, i16 %layer6_out_4, i16 %layer6_out_5, i16 %layer6_out_6, i16 %layer6_out_7" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 138 'call' 'call_ret6' <Predicate = true> <Delay = 1.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_13 : Operation 139 [1/1] (0.00ns)   --->   "%layer7_out = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 139 'extractvalue' 'layer7_out' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 140 [1/1] (0.00ns)   --->   "%layer7_out_1 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 140 'extractvalue' 'layer7_out_1' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 141 [1/1] (0.00ns)   --->   "%layer7_out_2 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 141 'extractvalue' 'layer7_out_2' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 142 [1/1] (0.00ns)   --->   "%layer7_out_3 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 142 'extractvalue' 'layer7_out_3' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 143 [1/1] (0.00ns)   --->   "%layer7_out_4 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 143 'extractvalue' 'layer7_out_4' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 144 [1/1] (0.00ns)   --->   "%layer7_out_5 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 144 'extractvalue' 'layer7_out_5' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 145 [1/1] (0.00ns)   --->   "%layer7_out_6 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 145 'extractvalue' 'layer7_out_6' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 146 [1/1] (0.00ns)   --->   "%layer7_out_7 = extractvalue i128 %call_ret6" [hls_simple_bds/firmware/myproject.cpp:60]   --->   Operation 146 'extractvalue' 'layer7_out_7' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 147 [4/4] (3.96ns)   --->   "%call_ret7 = call i32 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>, i16 %layer7_out, i16 %layer7_out_1, i16 %layer7_out_2, i16 %layer7_out_3, i16 %layer7_out_4, i16 %layer7_out_5, i16 %layer7_out_6, i16 %layer7_out_7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 147 'call' 'call_ret7' <Predicate = true> <Delay = 3.96> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 14 <SV = 13> <Delay = 3.96>
+ST_14 : Operation 148 [3/4] (3.96ns)   --->   "%call_ret7 = call i32 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>, i16 %layer7_out, i16 %layer7_out_1, i16 %layer7_out_2, i16 %layer7_out_3, i16 %layer7_out_4, i16 %layer7_out_5, i16 %layer7_out_6, i16 %layer7_out_7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 148 'call' 'call_ret7' <Predicate = true> <Delay = 3.96> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 15 <SV = 14> <Delay = 3.96>
+ST_15 : Operation 149 [2/4] (3.96ns)   --->   "%call_ret7 = call i32 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>, i16 %layer7_out, i16 %layer7_out_1, i16 %layer7_out_2, i16 %layer7_out_3, i16 %layer7_out_4, i16 %layer7_out_5, i16 %layer7_out_6, i16 %layer7_out_7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 149 'call' 'call_ret7' <Predicate = true> <Delay = 3.96> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 16 <SV = 15> <Delay = 7.28>
+ST_16 : Operation 150 [1/4] (3.96ns)   --->   "%call_ret7 = call i32 @dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>, i16 %layer7_out, i16 %layer7_out_1, i16 %layer7_out_2, i16 %layer7_out_3, i16 %layer7_out_4, i16 %layer7_out_5, i16 %layer7_out_6, i16 %layer7_out_7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 150 'call' 'call_ret7' <Predicate = true> <Delay = 3.96> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_16 : Operation 151 [1/1] (0.00ns)   --->   "%layer8_out = extractvalue i32 %call_ret7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 151 'extractvalue' 'layer8_out' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 152 [1/1] (0.00ns)   --->   "%layer8_out_1 = extractvalue i32 %call_ret7" [hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64]   --->   Operation 152 'extractvalue' 'layer8_out_1' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 153 [3/3] (3.31ns)   --->   "%call_ret = call i32 @softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>, i16 %layer8_out, i16 %layer8_out_1, i17 %exp_table, i18 %invert_table" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 153 'call' 'call_ret' <Predicate = true> <Delay = 3.31> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 17 <SV = 16> <Delay = 3.49>
+ST_17 : Operation 154 [2/3] (3.49ns)   --->   "%call_ret = call i32 @softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>, i16 %layer8_out, i16 %layer8_out_1, i17 %exp_table, i18 %invert_table" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 154 'call' 'call_ret' <Predicate = true> <Delay = 3.49> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 18 <SV = 17> <Delay = 3.23>
+ST_18 : Operation 155 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0"   --->   Operation 155 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 156 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2"   --->   Operation 156 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 157 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i256 %input_features"   --->   Operation 157 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 158 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %input_features, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 158 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 159 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %layer9_out_0"   --->   Operation 159 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 160 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %layer9_out_0, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 160 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 161 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %layer9_out_1"   --->   Operation 161 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 162 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %layer9_out_1, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 162 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 163 [1/3] (3.23ns)   --->   "%call_ret = call i32 @softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>, i16 %layer8_out, i16 %layer8_out_1, i17 %exp_table, i18 %invert_table" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 163 'call' 'call_ret' <Predicate = true> <Delay = 3.23> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_18 : Operation 164 [1/1] (0.00ns)   --->   "%layer9_out_0_ret = extractvalue i32 %call_ret" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 164 'extractvalue' 'layer9_out_0_ret' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 165 [1/1] (0.00ns)   --->   "%write_ln386 = write void @_ssdm_op_Write.ap_vld.i16P0A, i16 %layer9_out_0, i16 %layer9_out_0_ret" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 165 'write' 'write_ln386' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 166 [1/1] (0.00ns)   --->   "%layer9_out_1_ret = extractvalue i32 %call_ret" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 166 'extractvalue' 'layer9_out_1_ret' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 167 [1/1] (0.00ns)   --->   "%write_ln386 = write void @_ssdm_op_Write.ap_vld.i16P0A, i16 %layer9_out_1, i16 %layer9_out_1_ret" [hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66]   --->   Operation 167 'write' 'write_ln386' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 168 [1/1] (0.00ns)   --->   "%ret_ln68 = ret" [hls_simple_bds/firmware/myproject.cpp:68]   --->   Operation 168 'ret' 'ret_ln68' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 3.480ns
+The critical path consists of the following:
+	wire read operation ('input_features_read') on port 'input_features' [14]  (0.000 ns)
+	'call' operation 512 bit ('call_ret1', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' [15]  (3.480 ns)
+
+ <State 2>: 5.515ns
+The critical path consists of the following:
+	'call' operation 512 bit ('call_ret1', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' [15]  (5.515 ns)
+
+ <State 3>: 5.515ns
+The critical path consists of the following:
+	'call' operation 512 bit ('call_ret1', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' [15]  (5.515 ns)
+
+ <State 4>: 5.515ns
+The critical path consists of the following:
+	'call' operation 512 bit ('call_ret1', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:40) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' [15]  (5.515 ns)
+
+ <State 5>: 6.503ns
+The critical path consists of the following:
+	'call' operation 512 bit ('call_ret2', hls_simple_bds/firmware/myproject.cpp:44) to 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config3>' [48]  (1.078 ns)
+	'call' operation 256 bit ('call_ret3', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>' [81]  (5.425 ns)
+
+ <State 6>: 5.425ns
+The critical path consists of the following:
+	'call' operation 256 bit ('call_ret3', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>' [81]  (5.425 ns)
+
+ <State 7>: 5.425ns
+The critical path consists of the following:
+	'call' operation 256 bit ('call_ret3', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>' [81]  (5.425 ns)
+
+ <State 8>: 5.425ns
+The critical path consists of the following:
+	'call' operation 256 bit ('call_ret3', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:48) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>' [81]  (5.425 ns)
+
+ <State 9>: 5.738ns
+The critical path consists of the following:
+	'call' operation 256 bit ('call_ret4', hls_simple_bds/firmware/myproject.cpp:52) to 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config5>' [98]  (1.078 ns)
+	'call' operation 128 bit ('call_ret5', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>' [115]  (4.660 ns)
+
+ <State 10>: 4.750ns
+The critical path consists of the following:
+	'call' operation 128 bit ('call_ret5', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>' [115]  (4.750 ns)
+
+ <State 11>: 4.750ns
+The critical path consists of the following:
+	'call' operation 128 bit ('call_ret5', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>' [115]  (4.750 ns)
+
+ <State 12>: 4.750ns
+The critical path consists of the following:
+	'call' operation 128 bit ('call_ret5', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:56) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>' [115]  (4.750 ns)
+
+ <State 13>: 5.043ns
+The critical path consists of the following:
+	'call' operation 128 bit ('call_ret6', hls_simple_bds/firmware/myproject.cpp:60) to 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>' [124]  (1.078 ns)
+	'call' operation 32 bit ('call_ret7', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>' [133]  (3.965 ns)
+
+ <State 14>: 3.965ns
+The critical path consists of the following:
+	'call' operation 32 bit ('call_ret7', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>' [133]  (3.965 ns)
+
+ <State 15>: 3.965ns
+The critical path consists of the following:
+	'call' operation 32 bit ('call_ret7', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>' [133]  (3.965 ns)
+
+ <State 16>: 7.281ns
+The critical path consists of the following:
+	'call' operation 32 bit ('call_ret7', hls_simple_bds/firmware/nnet_utils/nnet_dense.h:54->hls_simple_bds/firmware/nnet_utils/nnet_dense.h:45->hls_simple_bds/firmware/myproject.cpp:64) to 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config8>' [133]  (3.965 ns)
+	'call' operation 32 bit ('call_ret', hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66) to 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>' [136]  (3.316 ns)
+
+ <State 17>: 3.494ns
+The critical path consists of the following:
+	'call' operation 32 bit ('call_ret', hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66) to 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>' [136]  (3.494 ns)
+
+ <State 18>: 3.233ns
+The critical path consists of the following:
+	'call' operation 32 bit ('call_ret', hls_simple_bds/firmware/nnet_utils/nnet_activation.h:386->hls_simple_bds/firmware/myproject.cpp:66) to 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config9>' [136]  (3.233 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

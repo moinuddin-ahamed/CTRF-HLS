@@ -1,0 +1,399 @@
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:26880:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:26880:7: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27854:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27854:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27868:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27868:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27882:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27882:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:29499:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:29499:7: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31516:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31516:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31529:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31529:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52925:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52925:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52935:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52935:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52946:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52946:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52953:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52953:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52955:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52955:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52967:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52967:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52969:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52969:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52984:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52984:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53004:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53004:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53005:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53005:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53020:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53020:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53027:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53027:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53336:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_135_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53336:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53337:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_136_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53337:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53358:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_157_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53358:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53359:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_158_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53359:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53477:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53477:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53489:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53489:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53503:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53503:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53530:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53530:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53560:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53560:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53597:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53597:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53608:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53608:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53641:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53641:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53655:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53655:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53689:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53689:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53698:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53698:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53712:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53712:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53719:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53719:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53732:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53732:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53769:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53769:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53774:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53774:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53775:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53775:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53792:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53792:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53805:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53805:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53813:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53813:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53848:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53848:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53878:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53878:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53905:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53905:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53919:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53919:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53935:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53935:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53953:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53953:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53970:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53970:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53987:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53987:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54017:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54017:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54036:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54036:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54066:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54066:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54085:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54085:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54115:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54115:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54142:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54142:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54171:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54171:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54192:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54192:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54210:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54210:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54230:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54230:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54326:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54326:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54333:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54333:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54342:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54342:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54351:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54351:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54355:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54355:17: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54366:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54366:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54370:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54370:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54394:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54394:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54398:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54398:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54417:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54417:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54643:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54643:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54652:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54652:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54758:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54758:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54763:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54763:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54771:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54771:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55349:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55423:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55505:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55678:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55678:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55738:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_obds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55738:9: note: FIX-IT applied suggested code changes

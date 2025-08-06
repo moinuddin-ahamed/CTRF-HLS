@@ -1,0 +1,68 @@
+{
+    "1": {
+        "name": "softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config7>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "239",
+        "instructions": "53",
+        "total_instructions": "53",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "3"
+        }
+    },
+    "2": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "17",
+        "instructions": "1675",
+        "total_instructions": "1675",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "3": {
+        "name": "relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config3>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "42",
+        "instructions": "146",
+        "total_instructions": "146",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config5>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "42",
+        "instructions": "74",
+        "total_instructions": "74",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "5": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config6>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "33",
+        "instructions": "120",
+        "total_instructions": "120",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "myproject",
+        "file": "myproject.cpp",
+        "fileloc": "7",
+        "instructions": "94",
+        "total_instructions": "3487",
+        "calls": "2 3 6 4 5 1",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>",
+        "file": "hls_simple_obds\/firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "17",
+        "instructions": "1325",
+        "total_instructions": "1325",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

@@ -1,0 +1,399 @@
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:26880:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:26880:7: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27854:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27854:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27868:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27868:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27882:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:27882:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:29499:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:29499:7: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31516:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31516:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31529:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:31529:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52932:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52932:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52942:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52942:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52953:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52953:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52960:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52960:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52962:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52962:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52974:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52974:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52976:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52976:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52991:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:52991:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53011:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53011:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53012:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53012:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53027:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53027:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53034:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53034:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53343:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_135_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53343:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53344:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_136_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53344:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53365:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_157_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53365:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53366:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_158_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53366:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53484:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53484:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53496:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53496:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53510:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53510:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53537:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53537:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53567:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53567:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53604:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53604:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53615:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53615:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53648:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53648:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53662:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53662:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53696:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53696:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53705:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53705:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53719:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53719:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53726:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53726:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53739:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53739:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53776:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53776:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53781:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53781:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53782:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53782:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53799:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53799:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53812:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53812:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53820:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53820:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53855:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53855:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53885:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53885:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53912:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53912:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53926:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53926:2: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53942:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53942:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53960:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53960:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53977:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53977:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53994:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:53994:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54024:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54024:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54043:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54043:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54073:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54073:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54092:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54092:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54122:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54122:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54149:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54149:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54178:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54178:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54199:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54199:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54217:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54217:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54237:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54237:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54333:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54333:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54340:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54340:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54349:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54349:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54358:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54358:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54362:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54362:17: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54373:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54373:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54377:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54377:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54401:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54401:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54405:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54405:13: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54424:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54424:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54650:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54650:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54659:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54659:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54765:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54765:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54770:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54770:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54778:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:54778:9: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55356:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55430:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55512:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55685:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55685:5: note: FIX-IT applied suggested code changes
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55745:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+C:\Users\moinu\Documents\HLS\CTRF-ICPR24\CTRF\hls_simple_bds_synthesis\solution1\.autopilot\db\myproject.pp.0.cpp:55745:9: note: FIX-IT applied suggested code changes
